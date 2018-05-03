@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle fold-on-match",
+        "command": "fold-on-match:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "fold-on-match",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "fold-on-match:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

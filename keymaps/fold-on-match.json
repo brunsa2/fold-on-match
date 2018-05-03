@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "fold-on-match:toggle"
+  }
+}
