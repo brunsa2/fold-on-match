@@ -1,6 +1,34 @@
 {
   "context-menu": {
-    "atom-text-editor": []
+    "atom-text-editor": [
+      {
+        "label": "Fold at all occurrences",
+        "command": "fold-on-match:fold-all"
+      },
+      {
+        "label": "Unfold at all occurrences",
+        "command": "fold-on-match:unfold-all"
+      }
+    ]
   },
-  "menu": []
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Fold on Match",
+          "submenu": [
+            {
+              "label": "Fold at all occurrences",
+              "command": "fold-on-match:fold-all"
+            },
+            {
+              "label": "Unfold at all occurrences",
+              "command": "fold-on-match:unfold-all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
