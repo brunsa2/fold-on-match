@@ -2,14 +2,13 @@
   "name": "fold-on-match",
   "main": "./lib/fold-on-match",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
-  "repository": "https://github.com/atom/fold-on-match",
+  "description": "Fold or unfold code at all matches of selected text",
+  "keywords": [
+    "folding"
+  ],
+  "repository": "https://github.com/brunsa2/fold-on-match",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "etch": "^0.9.3"
   }
 }

@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "fold-on-match:toggle"
+    "cmd-ctrl-[": "fold-on-match:fold-all",
+    "cmd-ctrl-]": "fold-on-match:unfold-all"
   }
 }

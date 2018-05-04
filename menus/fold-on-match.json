@@ -2,28 +2,32 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Fold at all occurrences",
+        "label": "Fold at All Matches",
         "command": "fold-on-match:fold-all"
       },
       {
-        "label": "Unfold at all occurrences",
+        "label": "Unfold at All Matches",
         "command": "fold-on-match:unfold-all"
       }
     ]
   },
   "menu": [
     {
-      "label": "Packages",
+      "label": "Edit",
       "submenu": [
         {
-          "label": "Fold on Match",
+          "label": "Folding",
           "submenu": [
             {
-              "label": "Fold at all occurrences",
-              "command": "fold-on-match:fold-all"
+              "type": "separator"
             },
             {
-              "label": "Unfold at all occurrences",
+              "label": "Fold at All Matches",
+              "command": "fold-on-match:fold-all",
+              "position": "after=unfold-all"
+            },
+            {
+              "label": "Unfold at All Matches",
               "command": "fold-on-match:unfold-all"
             }
           ]
