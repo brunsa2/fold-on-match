@@ -6,6 +6,12 @@
   "keywords": [
     "folding"
   ],
+  "activationCommands": {
+    "atom-workspace": [
+      "fold-on-match:fold-all",
+      "fold-on-match:unfold-all"
+    ]
+  },
   "repository": "https://github.com/brunsa2/fold-on-match",
   "license": "MIT",
   "engines": {
