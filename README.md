@@ -3,7 +3,7 @@ Fold on Match
 Fold or unfold code at every match of the currently selected text or word that
 the cursor is in.
 
-![Demonstration screenshot animation](https://github.com/brunsa2/fold-on-match/blob/master/demo.gif)
+![Demonstration screenshot animation](https://raw.githubusercontent.com/brunsa2/fold-on-match/master/demo.gif)
 
 Keybindings
 -----------
